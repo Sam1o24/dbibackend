@@ -16,7 +16,7 @@ log.addHandler(logging.StreamHandler(sys.stdout))
 log.setLevel(logging.INFO)
 
 CMD_ID_EXIT = 0
-CMD_ID_LIST = 1
+CMD_ID_LIST = 3
 CMD_ID_FILE_RANGE = 2
 
 CMD_TYPE_REQUEST = 0
